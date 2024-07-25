@@ -40,8 +40,7 @@ c = int(input('nhập vào số c11: '))
 print(a+b+c)
 #bài 12:Nhập vào 3 số a, b, c. Tính và in ra d = (a + b)^c,
 # Nếu d là số trong khoảng từ 100 - 200 thì in ra True, ngược lại in ra False
-a =int(input('nhập vào số a12: '))
-b =int(input('nhập vào số b12: '))
-c =int(input('nhập vào số c12: '))
+a = int(input('nhập vào số a12: '))
+b = int(input('nhập vào số b12: '))
+c = int(input('nhập vào số c12: '))
 d =(a+b)^c
-print(100 <= d <= 200)
