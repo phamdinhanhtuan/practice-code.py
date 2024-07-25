@@ -45,3 +45,7 @@ b =int(input('nhập vào số b12: '))
 c =int(input('nhập vào số c12: '))
 d =(a+b)^c
 print(100 <= d <= 200)
+#bài 13:Nhập vào số nguyên dương a, nếu a lớn hơn 10 thì ta in ra đây là số lớn hơn 10
+a = int(input('Nhập vào số nguyên dương a:'))
+if a>10:
+    print('Đây số lơn hơn 10')
