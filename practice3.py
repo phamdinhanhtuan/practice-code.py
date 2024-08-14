@@ -26,7 +26,17 @@ for i in range(h):
     else:
         print("*"* (h*2-1))
     khoangtrangngoai -= 1
-
+#bai 28:Nhập vào n.Tính S = 1 + 2 + 3 + 4 + … + n
+n = int(input('Nhập vào n:'))
+s = 0
+for i in range(1,n+1):
+    s += i
+print(s)
+#bài 29:Nhập vào số nguyên dương a, in toàn bộ ước của a
+a = int(input("nhap vao so nguyen duong a:"))
+for i in range(1,a+1):
+    if a % i  == 0:
+        print(a)
 
      
         
